@@ -29,6 +29,7 @@
     color: #FF0000;
     font-size: 88px;
     font-family: merriweather;
+    
 }
 
 .part-2 {
@@ -46,6 +47,22 @@
     margin: 25px 100px 40px 100px;    
 }
 
+.join-btn {
+    height: 20px;
+    width: 200px;    
+    align-items: center;
+    padding-bottom: 40px;   
+    background-color:cadetblue;
+    font-size: 30px;     
+    border-radius: 10px;
+    
+}
+
+.join-btn a {
+    text-decoration: none;
+    color: white;    
+}
+
 .banner-title2 {
     align-items: center;
     text-align: left;    
@@ -53,6 +70,24 @@
     width: 50%;
     height: 100px;
 
+}
+
+.join-button {
+    height: 36px;
+    width: 250px;
+    color: white;
+    align-items: center;
+    padding-bottom: 40px;   
+    font-size: 30px;
+    outline: none;    
+    border-radius: 10px;
+    background-color: #FF0000;
+    
+}
+
+.join-button a {
+    text-decoration: none;
+    color: white;
 }
 
 .title-midnight {
@@ -121,8 +156,27 @@
 
 }
 
-.submit-button {
+.email-input {
+    height: 30px;
+    width: 250px;
+    padding-left: 50px;
+    font-size: 19px;
+    outline: none;    
+    border-radius: 50px 0px 0px 50px;
     
+}
+
+.submit-button {
+    height: 36px;
+    width: 250px;
+    color: white;    
+    padding-left: 50px; 
+    padding-bottom: 40px;   
+    font-size: 30px;
+    outline: none;    
+    border-radius: 0px 50px 50px 00px;
+    background-color: #FF0000;
+
 }
 
 .contact-details {
@@ -132,6 +186,11 @@
     justify-content: space-between;
     margin: 25px 100px 40px 100px;
 
+}
+.contact-icon {
+    display: flex;
+    align-items: center;
+    
 }
 
 .icon {
