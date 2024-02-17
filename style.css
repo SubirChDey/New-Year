@@ -1,31 +1,53 @@
   
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+
 
 .top {
     background-image: url("resources/Banner Image.png");
-    height: 800px;
+    height: 600px;
     color: white;
     text-align: center;
     padding-top: 100px;
     font-size: 60px;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
+
 }
 .offer {
-    text-align: center;
+    text-align: center;    
     color: #FF0000;
-    font-size: 30px;
+    font-size: 88px;
+    font-family: merriweather;
 }
 
 .part-2 {
     text-align: center;
+    
 }
 
 .part-3 {
     text-align: left;
-    color: white;
-    padding: 150px;
+    color: white;    
     background-image: url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
+.title-midnight {
+    font-size: 65px;
+    }
 
 .part-4 {
     text-align: center;
@@ -34,4 +56,17 @@
 
 .part-5 {
     display: flex;
+}
+
+.last-part {
+    background-color: black;
+    padding: 10px;
+    color: white;
+
+}
+
+.copyright-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px 30px;
 }
