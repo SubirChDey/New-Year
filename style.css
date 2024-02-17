@@ -56,6 +56,35 @@
 
 .part-5 {
     display: flex;
+    margin: 25px 100px 40px 100px;
+}
+.holidays {
+    align-items: center;
+    text-align: center;
+    margin: 25px 100px 40px 100px;
+}
+.holiday-highlights {
+    color: #FF0000;
+}
+
+.holiday-image {
+    background-image: url("resources/Rectangle 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+   
+}
+.portfolio-items {
+    align-items: center;
+    text-align: left;    
+    margin: 10px 80px 10px;
+
+}
+.portfolio-gift {
+    font-size: 24px;
+    color: #FF0000;
+}
+.portfolio-title {
+    font-size: 40px;
 }
 
 .news-letter {
